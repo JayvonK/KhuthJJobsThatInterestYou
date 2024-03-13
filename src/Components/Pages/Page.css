@@ -26,5 +26,9 @@
 }
 
 .firstTxt {
-    
+    left: 3%;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 60px;
+    height: 100vh;
 }

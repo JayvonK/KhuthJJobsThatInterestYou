@@ -11,8 +11,7 @@ const HomePageComponent = () => {
   return (
     <Container>
 
-      <p className="absolute firstTxt text-blu">Top 5 Jobs</p>
-      <p className="absolute secondTxt text-blu">Top 5 Jobs</p>
+      <p className="absolute firstTxt text-blu angkor">TOP 5 JOBS</p>
       
       <div className="d-flex justify-content-center cardDiv">
         <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>

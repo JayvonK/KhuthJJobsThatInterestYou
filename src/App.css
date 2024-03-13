@@ -37,6 +37,11 @@
   }
 }
 
+@font-face {
+  font-family: Angkor;
+  src: url(./Components//Pages/Assets/BebasNeue-Regular.ttf);
+}
+
 .text-light {
   color: #EEEEEE !important;
 }
@@ -65,4 +70,8 @@
 
 .bgLight {
   background-color: #EEEEEE;
+}
+
+.angkor {
+  font-family: Angkor;
 }
