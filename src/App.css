@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.text-light {
+  color: #EEEEEE !important;
+}
+
+.text-blu {
+  color: #76ABAE !important;
+}
+
+.bgDarker {
+  background-color: #31363F;
+}
+
+.logos {
+  width: auto;
+  height: 50px;
+}
+
+.between {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.bgBlu {
+  background-color: #76ABAE;
+}
+
+.bgLight {
+  background-color: #EEEEEE;
+}

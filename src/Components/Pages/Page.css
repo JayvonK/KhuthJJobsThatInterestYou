@@ -1,0 +1,30 @@
+.flexRow {
+    display: flex;
+    flex-direction: row;
+  }
+
+.cBody {
+    background-color: #222831;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.homeImgs{
+    width: 65%;
+    object-fit: cover;
+}
+
+.cardDiv {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.firstTxt {
+    
+}
