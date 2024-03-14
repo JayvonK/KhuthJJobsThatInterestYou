@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
+import './Pages/Page.css';
 
 const InfoComponent = (props: {
   jobLink: string;
@@ -28,7 +29,7 @@ const InfoComponent = (props: {
             <div className="whyBox">
               <h2 className="angkor boxTxt textDark noPad">WHY</h2>
             </div>
-            <p className="text-blu whyTxt">{props.why}</p>
+            <p className="text-light whyTxt">{props.why}</p>
           </Col>
         </Row>
 
@@ -40,7 +41,7 @@ const InfoComponent = (props: {
           {props.benefits.map((txt, i) => (
             <Col key={"benefit" + i} sm={4}>
               <ul>
-                <li className="text-blu whyTxt">{txt}</li>
+                <li className="text-light whyTxt">{txt}</li>
               </ul>
             </Col>
           ))}
@@ -54,7 +55,7 @@ const InfoComponent = (props: {
           {props.requirements.map((txt, i) => (
             <Col key={"requirement" + i} sm={4}>
               <ul>
-                <li className="text-blu whyTxt">{txt}</li>
+                <li className="text-light whyTxt">{txt}</li>
               </ul>
             </Col>
           ))}
