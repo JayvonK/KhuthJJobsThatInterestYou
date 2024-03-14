@@ -6,8 +6,16 @@ import Github from "./Assets/github.png";
 import Nike from "./Assets/Nike.jpg";
 import OpenAI from "./Assets/OpenAi.jpg";
 import "./Page.css";
+import { useNavigate } from "react-router-dom";
 
 const HomePageComponent = () => {
+  
+  const navigate = useNavigate();
+
+  const handleCrunchy = () => {
+    navigate('/crunchyroll');
+  }
+
   return (
     <Container>
 
@@ -17,12 +25,11 @@ const HomePageComponent = () => {
         <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>
           <Card.Img className="homeImgs" variant="top" src={Nike} />
           <Card.Body className="cBody text-light">
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title className="text-blu">NIKE</Card.Title>
             <Card.Text className="w-100">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              I'm interested in becoming a software engineer for Nike!
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button className="textDark" variant="light">Learn why</Button>
           </Card.Body>
         </Card>
       </div>
@@ -31,12 +38,11 @@ const HomePageComponent = () => {
         <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>
           <Card.Img className="homeImgs" variant="top" src={OpenAI} />
           <Card.Body className="cBody text-light">
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Open AI</Card.Title>
             <Card.Text className="w-100">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+            I'm also thinking about becoming a software engineer for Open AI!
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button className="textDark" variant="light">Learn why</Button>
           </Card.Body>
         </Card>
       </div>
@@ -46,12 +52,11 @@ const HomePageComponent = () => {
         <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>
           <Card.Img className="homeImgs" variant="top" src={Figma} />
           <Card.Body className="cBody text-light">
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Figma</Card.Title>
             <Card.Text className="w-100">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Becoming a software engineer for Figma intrigues me
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button className="textDark" variant="light">Learn why</Button>
           </Card.Body>
         </Card>
       </div>
@@ -60,12 +65,11 @@ const HomePageComponent = () => {
         <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>
           <Card.Img className="homeImgs" variant="top" src={Github} />
           <Card.Body className="cBody text-light">
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>GitHub</Card.Title>
             <Card.Text className="w-100">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              Software Engineer for GitHub? I would love to do that
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button className="textDark" variant="light">Learn why</Button>
           </Card.Body>
         </Card>
       </div>
@@ -74,12 +78,11 @@ const HomePageComponent = () => {
         <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>
           <Card.Img className="homeImgs" variant="top" src={Crunchy} />
           <Card.Body className="cBody text-light">
-            <Card.Title>Card Title</Card.Title>
+            <Card.Title>Crunchy Roll</Card.Title>
             <Card.Text className="w-100">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              I would love for Crunchy Roll to hire me on as a software engineer.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Button onClick={handleCrunchy} className="textDark" variant="light">Learn why</Button>
           </Card.Body>
         </Card>
       </div>

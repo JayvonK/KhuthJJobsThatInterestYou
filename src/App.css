@@ -50,8 +50,12 @@
   color: #76ABAE !important;
 }
 
+.text-dark {
+  color: #15161E;
+}
+
 .bgDarker {
-  background-color: #31363F;
+  background-color: #15161E;
 }
 
 .logos {
@@ -75,3 +79,5 @@
 .angkor {
   font-family: Angkor;
 }
+
+

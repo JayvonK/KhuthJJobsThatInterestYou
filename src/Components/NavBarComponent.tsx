@@ -17,8 +17,8 @@ function NavBarComponent() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto between">
-          <Nav.Link ><img className='logos' src={home}/></Nav.Link>
-            <Nav.Link ><img className='logos' src={crunchylogo}/></Nav.Link>
+          <Nav.Link as={Link} to={'/'}><img className='logos' src={home}/></Nav.Link>
+            <Nav.Link as={Link} to={'/crunchyroll'}><img className='logos' src={crunchylogo}/></Nav.Link>
             <Nav.Link ><img className='logos' src={figmalogo}/></Nav.Link>
             <Nav.Link ><img className='logos' src={githublogo}/></Nav.Link>
             <Nav.Link ><img className='logos' src={nikelogo}/></Nav.Link>

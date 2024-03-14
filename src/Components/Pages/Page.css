@@ -4,7 +4,8 @@
   }
 
 .cBody {
-    background-color: #222831;
+    background-color: #15161E;
+    width: 50%;
 }
 
 .w-100 {
@@ -31,4 +32,68 @@
     text-orientation: upright;
     font-size: 60px;
     height: 100vh;
+}
+
+.textDark {
+    color: black;
+}
+
+.btn-light {
+    --bs-btn-bg: #EEEEEE;
+}
+
+.box {
+    width: 100%;
+    background-color: #76ABAE;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+.sideBox {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boxTxt {
+    font-size: 50px;
+}
+
+.imgBorder {
+    border: 1px solid #EEEEEE;
+    border-radius: 5px;
+}
+
+.whyBox {
+    width: 30%;
+    background-color: #76ABAE;
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.noPad {
+    padding: 0px;
+    margin: 0px;
+}
+
+.whyTxt {
+    font-weight: 500;
+}
+
+.benefitsBox {
+        width: 30%;
+        background-color: #76ABAE;
+        text-align: center;
+        align-items: center;
+        padding: 2px;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        margin-top: 2rem;
 }
