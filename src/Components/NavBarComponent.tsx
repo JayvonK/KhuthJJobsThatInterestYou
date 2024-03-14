@@ -9,6 +9,7 @@ import githublogo from './Pages/Assets/github logo.png';
 import nikelogo from './Pages/Assets/nike logo.png';
 import openailogo from './Pages/Assets/openai-icon-2021x2048-4rpe5x7n.png';
 import home from './Pages/Assets/icons8-home-64.png';
+import doc from './Pages/Assets/icons8-pdf-100.png'
 
 function NavBarComponent() {
   return (
@@ -23,6 +24,7 @@ function NavBarComponent() {
             <Nav.Link as={Link} to={'/github'} ><img className='logos' src={githublogo}/></Nav.Link>
             <Nav.Link as={Link} to={'/discord'}><img className='logos' src={discordLogo}/></Nav.Link>
             <Nav.Link as={Link} to={'/figma'} ><img className='logos' src={figmalogo}/></Nav.Link>
+            <Nav.Link target='_blank' href="https://docs.google.com/document/d/1EJqk1-jQbzEvanl0Q6onav5WMElApG5XpR6KFGLFjBc/edit?usp=sharing"><img className='logos' src={doc}/></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -75,7 +75,7 @@ const HomePageComponent = () => {
           </Card.Body>
         </Card>
       </div>
-      
+
       <div className="d-flex justify-content-center cardDiv">
         <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
           <Card.Img className="homeImgs" variant="top" src={Discord} />
@@ -105,7 +105,6 @@ const HomePageComponent = () => {
           </Card.Body>
         </Card>
       </div>
-
       
     </Container>
   );
