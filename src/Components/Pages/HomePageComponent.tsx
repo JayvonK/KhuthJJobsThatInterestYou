@@ -63,20 +63,6 @@ const HomePageComponent = () => {
         </Card>
       </div>
       
-
-      <div className="d-flex justify-content-center cardDiv">
-        <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
-          <Card.Img className="homeImgs" variant="top" src={Figma} />
-          <Card.Body className="cBody text-light">
-            <Card.Title className="text-blu angkor company">Figma</Card.Title>
-            <Card.Text className="w-100">
-              Becoming a software engineer for Figma intrigues me
-            </Card.Text>
-            <Button onClick={handleFigma} className="textDark" variant="light">Learn why</Button>
-          </Card.Body>
-        </Card>
-      </div>
-
       <div className="d-flex justify-content-center cardDiv">
         <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
           <Card.Img className="homeImgs" variant="top" src={Github} />
@@ -89,7 +75,7 @@ const HomePageComponent = () => {
           </Card.Body>
         </Card>
       </div>
-
+      
       <div className="d-flex justify-content-center cardDiv">
         <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
           <Card.Img className="homeImgs" variant="top" src={Discord} />
@@ -99,6 +85,23 @@ const HomePageComponent = () => {
               I would love for Discord to hire me on as a software engineer.
             </Card.Text>
             <Button onClick={handleCrunchy} className="textDark" variant="light">Learn why</Button>
+          </Card.Body>
+        </Card>
+      </div>
+
+     
+
+      
+
+       <div className="d-flex justify-content-center cardDiv">
+        <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
+          <Card.Img className="homeImgs" variant="top" src={Figma} />
+          <Card.Body className="cBody text-light">
+            <Card.Title className="text-blu angkor company">Figma</Card.Title>
+            <Card.Text className="w-100">
+              Becoming a software engineer for Figma intrigues me
+            </Card.Text>
+            <Button onClick={handleFigma} className="textDark" variant="light">Learn why</Button>
           </Card.Body>
         </Card>
       </div>

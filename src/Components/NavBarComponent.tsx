@@ -20,9 +20,9 @@ function NavBarComponent() {
           <Nav.Link as={Link} to={'/'}><img className='logos' src={home}/></Nav.Link>
             <Nav.Link as={Link} to={'/nike'} ><img className='logos' src={nikelogo}/></Nav.Link>
             <Nav.Link as={Link} to={'/openai'} ><img className='logos' src={openailogo}/></Nav.Link>
+            <Nav.Link as={Link} to={'/github'} ><img className='logos' src={githublogo}/></Nav.Link>
             <Nav.Link as={Link} to={'/discord'}><img className='logos' src={discordLogo}/></Nav.Link>
             <Nav.Link as={Link} to={'/figma'} ><img className='logos' src={figmalogo}/></Nav.Link>
-            <Nav.Link as={Link} to={'/github'} ><img className='logos' src={githublogo}/></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

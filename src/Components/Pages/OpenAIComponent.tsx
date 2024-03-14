@@ -4,13 +4,22 @@ import InfoComponent from "../InfoComponent";
 
 const OpenAIComponent = () => {
   const [benefitArray, setBenefitArray] = useState<string[]>([
-    "Medical, dental, and vision insurance for you and your family",
-    "Mental health and wellness support",
-    "401(k) plan with 50% matching",
-    "Unlimited time off and 18+ company holidays per year",
-    "Paid parental leave (20 weeks) and family-planning support",
-    "Annual learning & development stipend ($1,500 per year)",
-  ]);
+    "Health, dental, and vision insurance",
+    "Mental healthcare support and services",
+    "Commuter benefits",
+    "401(k) with generous matching",
+    "Domestic conference budget for each employee",
+    "Flexible working hours",
+    "20 weeks paid parental leave",
+    "Life and AD&D insurance",
+    "Fertility treatment and family planning coverage",
+    "Flexible spending account for healthcare and dependent care",
+    "Annual learning & development stipend",
+    "Employee resource groups",
+    "Team-driven celebrations and events",
+    "Daily breakfast, lunch, and dinner",
+    "Freshly baked cookies"
+]);
 
   const [requirementArray, setRequirementArray] = useState<string[]>([
     "5+ years of relevant engineering experience at tech and product-driven companies",
@@ -22,7 +31,7 @@ const OpenAIComponent = () => {
   ]);
 
   const [whyTxt, setWhyTxt] = useState<string>(
-    "The main reason why I want to work as this position for Crunchy Rollis because I'm very interested working in a role where you're able to enhance user experiences. For example this particular role, will help enhance checkout experiences for fans. Another factor to add is, the role allows you to solve complex challenges, which makes me even more interested. Crunchy Roll's values of COURAGE, CURIOSITY, SERVICE & KAIZEN all align with my values which is a great addition when considering working for Crunchy Roll. Also the position has a great pay salary, plus many great benefits! For example, the pay salary is anywhere from 149k - 186k, and one of their benefits include a support program for new parents. Currently I don't have all the skillsets required for the job, for example skillsets that I need to acquire are being able to deploy code with AWS & Google Cloud, have 5+ years of relevant experience in the software industry, and knowledge on how to optimize and refine checkout experiences for users. Hypothetically, if I were to get hired at Crunchy Roll for this position, I would like to achieve, growing my skillset as a software engineer, and being able to hopefully acquire a higher position at Crunchy Roll or another company."
+    "The main reason why I want to work as this position for Open AI is because, I'm really interested in working for a company that specializes in AI, and when I think about an AI company I automatically think of Open AI. Also I would love to contribute to the development of ChatGPT and OpenAI API features. On top of my interest, they offer a salary that goes up to 385k! Also I really like some of their values, for example their AGI focus which they are commited to creating a safe and beneficial AGI that will have a positive impact on humanity's future. And also their value of making something that people love. Their benefits aren't bad either, I really like how they offer fertility treatment, flexible working hours and 20 weeks of paid parental leave. For their skillsets, I qualify for some, but I will have to learn new skills in order to actually be hired. For example I would have to learn python for the backend, and gain lots of more experience.Now if I were to actually be hired for Open AI, then I my goal would be to further improve my skills at the company and most likely reach for a higher position at Open AI or another company."
   );
   return (
     <>
