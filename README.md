@@ -1,7 +1,7 @@
 <!-- Jayvon Khuth -->
 
-<!-- Peer Reviewer: -->
-<!-- Peer Review: -->
+<!-- Peer Reviewer: Jerrod Packard -->
+<!-- Peer Review: Very nice job Jayvon! I love the color palette and the icons you used in your navbar. The site looks amazing. All of the photos are great and everything is spaced out very nicely. Using components for each page and passing down the props was brilliant. That must have saved you a lot of time. I love everything about it. I tested out all of the links and everything works great. Well done! -->
 
 
 
