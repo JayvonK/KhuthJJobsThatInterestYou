@@ -16,6 +16,22 @@ const HomePageComponent = () => {
     navigate('/crunchyroll');
   }
 
+  const handleNike = () => {
+    navigate('/nike');
+  }
+
+  const handleGitHub = () => {
+    navigate('/github');
+  }
+
+  const handleOpenAI = () => {
+    navigate('/openai');
+  }
+
+  const handleFigma = () => {
+    navigate('/figma');
+  }
+
   return (
     <Container>
 
@@ -29,7 +45,7 @@ const HomePageComponent = () => {
             <Card.Text className="w-100">
               I'm interested in becoming a software engineer for Nike!
             </Card.Text>
-            <Button className="textDark" variant="light">Learn why</Button>
+            <Button onClick={handleNike} className="textDark" variant="light">Learn why</Button>
           </Card.Body>
         </Card>
       </div>
@@ -42,7 +58,7 @@ const HomePageComponent = () => {
             <Card.Text className="w-100">
             I'm also thinking about becoming a software engineer for Open AI!
             </Card.Text>
-            <Button className="textDark" variant="light">Learn why</Button>
+            <Button onClick={handleOpenAI} className="textDark" variant="light">Learn why</Button>
           </Card.Body>
         </Card>
       </div>
@@ -56,7 +72,7 @@ const HomePageComponent = () => {
             <Card.Text className="w-100">
               Becoming a software engineer for Figma intrigues me
             </Card.Text>
-            <Button className="textDark" variant="light">Learn why</Button>
+            <Button onClick={handleFigma} className="textDark" variant="light">Learn why</Button>
           </Card.Body>
         </Card>
       </div>
@@ -69,7 +85,7 @@ const HomePageComponent = () => {
             <Card.Text className="w-100">
               Software Engineer for GitHub? I would love to do that
             </Card.Text>
-            <Button className="textDark" variant="light">Learn why</Button>
+            <Button onClick={handleGitHub} className="textDark" variant="light">Learn why</Button>
           </Card.Body>
         </Card>
       </div>
