@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import '../App.css';
-import crunchylogo from './Pages/Assets/crunchy roll logo.png';
+import discordLogo from './Pages/Assets/kisspng-discord-computer-icons-logo-simplify-5aea4b0bd3b906.5942008315253040758672.png';
 import figmalogo from './Pages/Assets/logo-figma-svgrepo-com.svg';
 import githublogo from './Pages/Assets/github logo.png';
 import nikelogo from './Pages/Assets/nike logo.png';
@@ -18,11 +18,11 @@ function NavBarComponent() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto between">
           <Nav.Link as={Link} to={'/'}><img className='logos' src={home}/></Nav.Link>
-            <Nav.Link as={Link} to={'/crunchyroll'}><img className='logos' src={crunchylogo}/></Nav.Link>
-            <Nav.Link as={Link} to={'/figma'} ><img className='logos' src={figmalogo}/></Nav.Link>
-            <Nav.Link as={Link} to={'/github'} ><img className='logos' src={githublogo}/></Nav.Link>
             <Nav.Link as={Link} to={'/nike'} ><img className='logos' src={nikelogo}/></Nav.Link>
             <Nav.Link as={Link} to={'/openai'} ><img className='logos' src={openailogo}/></Nav.Link>
+            <Nav.Link as={Link} to={'/discord'}><img className='logos' src={discordLogo}/></Nav.Link>
+            <Nav.Link as={Link} to={'/figma'} ><img className='logos' src={figmalogo}/></Nav.Link>
+            <Nav.Link as={Link} to={'/github'} ><img className='logos' src={githublogo}/></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

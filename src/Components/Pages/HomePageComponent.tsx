@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Button, Row, Col, Container } from "react-bootstrap";
-import Crunchy from "./Assets/CrunchyRollImg.png";
+import Discord from "./Assets/Discord-Symbol.png";
 import Figma from "./Assets/figma.jpg";
 import Github from "./Assets/github.png";
 import Nike from "./Assets/Nike.jpg";
@@ -13,7 +13,7 @@ const HomePageComponent = () => {
   const navigate = useNavigate();
 
   const handleCrunchy = () => {
-    navigate('/crunchyroll');
+    navigate('/discord');
   }
 
   const handleNike = () => {
@@ -38,10 +38,10 @@ const HomePageComponent = () => {
       <p className="absolute firstTxt text-blu angkor">TOP 5 JOBS</p>
       
       <div className="d-flex justify-content-center cardDiv">
-        <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>
+        <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
           <Card.Img className="homeImgs" variant="top" src={Nike} />
           <Card.Body className="cBody text-light">
-            <Card.Title className="text-blu">NIKE</Card.Title>
+            <Card.Title className="text-blu angkor company">NIKE</Card.Title>
             <Card.Text className="w-100">
               I'm interested in becoming a software engineer for Nike!
             </Card.Text>
@@ -51,10 +51,10 @@ const HomePageComponent = () => {
       </div>
 
       <div className="d-flex justify-content-center cardDiv">
-        <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>
+        <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
           <Card.Img className="homeImgs" variant="top" src={OpenAI} />
           <Card.Body className="cBody text-light">
-            <Card.Title>Open AI</Card.Title>
+            <Card.Title className="text-blu angkor company">Open AI</Card.Title>
             <Card.Text className="w-100">
             I'm also thinking about becoming a software engineer for Open AI!
             </Card.Text>
@@ -65,10 +65,10 @@ const HomePageComponent = () => {
       
 
       <div className="d-flex justify-content-center cardDiv">
-        <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>
+        <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
           <Card.Img className="homeImgs" variant="top" src={Figma} />
           <Card.Body className="cBody text-light">
-            <Card.Title>Figma</Card.Title>
+            <Card.Title className="text-blu angkor company">Figma</Card.Title>
             <Card.Text className="w-100">
               Becoming a software engineer for Figma intrigues me
             </Card.Text>
@@ -78,10 +78,10 @@ const HomePageComponent = () => {
       </div>
 
       <div className="d-flex justify-content-center cardDiv">
-        <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>
+        <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
           <Card.Img className="homeImgs" variant="top" src={Github} />
           <Card.Body className="cBody text-light">
-            <Card.Title>GitHub</Card.Title>
+            <Card.Title className="text-blu angkor company">GitHub</Card.Title>
             <Card.Text className="w-100">
               Software Engineer for GitHub? I would love to do that
             </Card.Text>
@@ -91,12 +91,12 @@ const HomePageComponent = () => {
       </div>
 
       <div className="d-flex justify-content-center cardDiv">
-        <Card className="flexRow" style={{ width: "100%", height: "10rem" }}>
-          <Card.Img className="homeImgs" variant="top" src={Crunchy} />
+        <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
+          <Card.Img className="homeImgs" variant="top" src={Discord} />
           <Card.Body className="cBody text-light">
-            <Card.Title>Crunchy Roll</Card.Title>
+            <Card.Title className="text-blu angkor company">Discord</Card.Title>
             <Card.Text className="w-100">
-              I would love for Crunchy Roll to hire me on as a software engineer.
+              I would love for Discord to hire me on as a software engineer.
             </Card.Text>
             <Button onClick={handleCrunchy} className="textDark" variant="light">Learn why</Button>
           </Card.Body>
