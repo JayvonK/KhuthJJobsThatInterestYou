@@ -18,12 +18,12 @@ function NavBarComponent() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto between">
-          <Nav.Link as={Link} to={'/'}><img className='logos' src={home}/></Nav.Link>
-            <Nav.Link as={Link} to={'/nike'} ><img className='logos' src={nikelogo}/></Nav.Link>
-            <Nav.Link as={Link} to={'/openai'} ><img className='logos' src={openailogo}/></Nav.Link>
-            <Nav.Link as={Link} to={'/github'} ><img className='logos' src={githublogo}/></Nav.Link>
-            <Nav.Link as={Link} to={'/discord'}><img className='logos' src={discordLogo}/></Nav.Link>
-            <Nav.Link as={Link} to={'/figma'} ><img className='logos' src={figmalogo}/></Nav.Link>
+          <Nav.Link as={Link} to={'/'}><img className='logos' src={home} alt='Home Logo Img'/></Nav.Link>
+            <Nav.Link as={Link} to={'/nike'} ><img className='logos' src={nikelogo} alt='Nike Logo Img'/></Nav.Link>
+            <Nav.Link as={Link} to={'/openai'} ><img className='logos' src={openailogo} alt='OpenAI Logo Img'/></Nav.Link>
+            <Nav.Link as={Link} to={'/github'} ><img className='logos' src={githublogo} alt='Github Logo Img'/></Nav.Link>
+            <Nav.Link as={Link} to={'/discord'}><img className='logos' src={discordLogo} alt='Discord Logo Img'/></Nav.Link>
+            <Nav.Link as={Link} to={'/figma'} ><img className='logos' src={figmalogo} alt='Figma Logo Img'/></Nav.Link>
             <Nav.Link target='_blank' href="https://docs.google.com/document/d/1EJqk1-jQbzEvanl0Q6onav5WMElApG5XpR6KFGLFjBc/edit?usp=sharing"><img className='logos' src={doc}/></Nav.Link>
           </Nav>
         </Navbar.Collapse>

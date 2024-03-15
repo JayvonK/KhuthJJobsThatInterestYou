@@ -42,6 +42,7 @@ const OpenAIComponent = () => {
         why={whyTxt}
         benefits={benefitArray}
         requirements={requirementArray}
+        hqAlt="Image representing OpenAI work place"
       />
     </>
   );

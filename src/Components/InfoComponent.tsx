@@ -6,6 +6,7 @@ const InfoComponent = (props: {
   jobLink: string;
   job: string;
   hq: string;
+  hqAlt: string;
   why: string;
   benefits: string[];
   requirements: string[];
@@ -23,7 +24,7 @@ const InfoComponent = (props: {
 
         <Row>
           <Col>
-            <img className="sideBox imgBorder" src={props.hq} />
+            <img className="sideBox imgBorder" src={props.hq} alt={props.hqAlt}/>
           </Col>
           <Col>
             <div className="whyBox">

@@ -39,7 +39,7 @@ const HomePageComponent = () => {
       
       <div className="d-flex justify-content-center cardDiv">
         <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
-          <Card.Img className="homeImgs" variant="top" src={Nike} />
+          <Card.Img className="homeImgs" variant="top" src={Nike} alt='Image Representing Nike' />
           <Card.Body className="cBody text-light">
             <Card.Title className="text-blu angkor company">NIKE</Card.Title>
             <Card.Text className="w-100">
@@ -52,7 +52,7 @@ const HomePageComponent = () => {
 
       <div className="d-flex justify-content-center cardDiv">
         <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
-          <Card.Img className="homeImgs" variant="top" src={OpenAI} />
+          <Card.Img className="homeImgs" variant="top" src={OpenAI} alt='Image Representing OpenAI'/>
           <Card.Body className="cBody text-light">
             <Card.Title className="text-blu angkor company">Open AI</Card.Title>
             <Card.Text className="w-100">
@@ -65,7 +65,7 @@ const HomePageComponent = () => {
       
       <div className="d-flex justify-content-center cardDiv">
         <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
-          <Card.Img className="homeImgs" variant="top" src={Github} />
+          <Card.Img className="homeImgs" variant="top" src={Github} alt='Image Representing Github'/>
           <Card.Body className="cBody text-light">
             <Card.Title className="text-blu angkor company">GitHub</Card.Title>
             <Card.Text className="w-100">
@@ -78,7 +78,7 @@ const HomePageComponent = () => {
 
       <div className="d-flex justify-content-center cardDiv">
         <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
-          <Card.Img className="homeImgs" variant="top" src={Discord} />
+          <Card.Img className="homeImgs" variant="top" src={Discord} alt='Image Representing Discord'/>
           <Card.Body className="cBody text-light">
             <Card.Title className="text-blu angkor company">Discord</Card.Title>
             <Card.Text className="w-100">
@@ -95,7 +95,7 @@ const HomePageComponent = () => {
 
        <div className="d-flex justify-content-center cardDiv">
         <Card className="flexRow" style={{ width: "100%", height: "11rem" }}>
-          <Card.Img className="homeImgs" variant="top" src={Figma} />
+          <Card.Img className="homeImgs" variant="top" src={Figma} alt='Image Representing Figma'/>
           <Card.Body className="cBody text-light">
             <Card.Title className="text-blu angkor company">Figma</Card.Title>
             <Card.Text className="w-100">
