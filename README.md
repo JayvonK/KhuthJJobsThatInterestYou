@@ -1,4 +1,7 @@
 <!-- Jayvon Khuth -->
+<!-- 3/15/24 -->
+<!-- Jobs that Interests You -->
+<!-- For this project, I leveraged react and typescript in order to display my top 5 companies that I want to work at, with the specific job positions. I styled the project using a color pallete and basic side cards. This project was fairly simple, what took me the longest is probably just the research portion, but this project was a good way to start learning about what's out there in the tech field -->
 
 <!-- Peer Reviewer: Jerrod Packard -->
 <!-- Peer Review: Very nice job Jayvon! I love the color palette and the icons you used in your navbar. The site looks amazing. All of the photos are great and everything is spaced out very nicely. Using components for each page and passing down the props was brilliant. That must have saved you a lot of time. I love everything about it. I tested out all of the links and everything works great. Well done! -->
